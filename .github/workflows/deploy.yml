@@ -14,6 +14,7 @@ jobs:
           host: 178.18.254.89
           username: root
           password: hD5H9Mf5kwci
+          token: ${{ secrets.myToken }}
           script: |
             . ~/.nvm/nvm.sh
             whoami
