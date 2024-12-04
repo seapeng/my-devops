@@ -13,7 +13,7 @@ jobs:
         with:
           host: 178.18.254.89
           username: root
-          password: hD5H9Mf5kwci
+          password: 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
           script: |
             . ~/.nvm/nvm.sh
             whoami
