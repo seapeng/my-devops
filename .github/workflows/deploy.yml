@@ -1,4 +1,4 @@
-name: Test API
+name: Test DevOps
 on:
   push:
     branches: main
@@ -11,8 +11,8 @@ jobs:
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@v1.2.0
         with:
-          host: localhost
+          host: http://178.18.254.89/
           username: root
-          password: admin
-          port: 2233
+          password: hD5H9Mf5kwci
+          # port: 2233
           script: whoami
