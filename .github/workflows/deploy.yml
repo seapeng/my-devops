@@ -14,5 +14,4 @@ jobs:
           host: http://178.18.254.89/
           username: root
           password: hD5H9Mf5kwci
-          # port: 2233
           script: whoami
