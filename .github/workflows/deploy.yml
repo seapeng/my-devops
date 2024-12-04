@@ -19,6 +19,6 @@ jobs:
             whoami
             pwd
             ls
-            cd devops-cadt-2
+            cd /var/www/my-devops
             git pull
             pm2 restart index.js
