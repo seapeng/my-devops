@@ -7,5 +7,5 @@ npm run dev
 ```
 ## Run test
 ```sh
-npm run test
+npm run testing
 ```
