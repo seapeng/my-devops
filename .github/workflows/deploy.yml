@@ -11,7 +11,14 @@ jobs:
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@v1.2.0
         with:
-          host: http://178.18.254.89/
+          host: 178.18.254.89
           username: root
           password: hD5H9Mf5kwci
-          script: whoami
+          script: |
+            . ~/.nvm/nvm.sh
+            whoami
+            pwd
+            ls
+            cd devops-cadt-2
+            git pull
+            pm2 restart index.js
